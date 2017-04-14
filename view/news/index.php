@@ -4,7 +4,8 @@
         <meta name="keywords" content="" />
         <meta name="description" content="" />
         <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-        <title>Effloresce  by FCT</title>
+        <meta charset = "utf-8"/>
+        <title>POWERFUL</title>
         <link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
         <link href="../template/css/style.css" rel="stylesheet" type="text/css" media="screen" />
     </head>
@@ -25,8 +26,8 @@
             <div id="header-wrapper">
 		<div id="header">
                     <div id="logo">
-                        <h1><a href="#">Effloresce </a></h1>
-                        <p>template Шаблоны для сайта <a href="http://www.ftemplate.ru/">СКАЧАТЬ</a></p>
+                        <h1><a href="#">POWERFUL</a></h1>
+                        <p>Сайт о игровых движках</p>
                     </div>
 		</div>
             </div>
@@ -49,7 +50,7 @@
                                         <a href='/news/<?php echo $newsItem['id'] ;?>' class="permalink"> Full article</a>
                                     </p>
                                     <div class="entry">
-                                        <p><img src="../template/images/GameMaker_logo.jpg" width="800" height="300" alt="Картинка" /></p>
+                                        <p><img src="../template/images/<?php echo $newsItem['image'] ;?>.jpg" width="800" height="300" alt="Картинка" /></p>
                                         <p><?php echo $newsItem['short_content'];?></p>
                                     </div>
                                 </div>

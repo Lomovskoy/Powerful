@@ -6,4 +6,5 @@
         'user' => 'imxo',
         'password' => '123qwerty123',   
     );
+
 ?>
