@@ -27,7 +27,7 @@ class News {
         
         $newsList = array();
         
-        $rasult = $db->query('SELECT id, title, date, short_content '
+        $rasult = $db->query('SELECT id, title, date, short_content, author_name '
                 . 'FROM news '
                 . 'ORDER BY date DESC '
                 . 'LIMIT 10');
@@ -37,9 +37,10 @@ class News {
             $newsList[$i]['title'] = $row['title'];
             $newsList[$i]['date'] = $row['date'];
             $newsList[$i]['short_content'] = $row['short_content'];
+            $newsList[$i]['author_name'] = $row['author_name'];
             $i++;
         }
-    return $newsList;
+        return $newsList;
     }
 }
 ?>
