@@ -6,8 +6,8 @@
         <meta http-equiv="content-type" content="text/html; charset=utf-8" />
         <meta charset = "utf-8"/>
         <title>POWERFUL</title>
-        <link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
-        <link href="../template/css/style.css" rel="stylesheet" type="text/css" media="screen" />
+        <link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'/>
+        <link href="../../template/css/style.css" rel="stylesheet" type="text/css" media="screen" />
     </head>
     <body>
         <div id="menu-wrapper">
@@ -39,7 +39,7 @@
                                 <div class="post">
                                     <h2 class="title">
                                     <a href='/news/<?php echo $newsItem['id'] ;?>'>
-                                        <?php echo $newsItem['title'].' # '.$newsItem['id'];?>
+                                        <?php echo $newsItem['title'];?><!--.' # '.$newsItem['id'];?>-->
                                     </a>
                                     </h2>
                                     <p class="meta">Posted by 
@@ -50,7 +50,7 @@
                                         <a href='/news/<?php echo $newsItem['id'] ;?>' class="permalink"> Full article</a>
                                     </p>
                                     <div class="entry">
-                                        <p><img src="../template/images/<?php echo $newsItem['image'] ;?>.jpg" width="800" height="300" alt="Картинка" /></p>
+                                        <p><img src="../../template/images/<?php echo $newsItem['image'] ;?>.jpg" width="800" height="400" alt="Картинка" /></p>
                                         <p><?php echo $newsItem['short_content'];?></p>
                                     </div>
                                 </div>
